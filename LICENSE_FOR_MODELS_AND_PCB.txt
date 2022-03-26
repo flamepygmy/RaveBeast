@@ -1,3 +1,9 @@
+Title: “Rave Beast” PCBs and 3D models
+Author: Jani Vaarala
+License: CC BY-NC-SA 4.0 (see below)
+-------------------------------------
+
+
 Attribution-NonCommercial-ShareAlike 4.0 International
 
 =======================================================================
