@@ -10,7 +10,7 @@ This is a custom 3D printed gaming keyboard for left handed use meant for gaming
 Files included:
    - PCB schematic files that can be used to order PCBs
    - 3D printer files for the parts of the body
-   - 3D printer files for custom key caps
+   - 3D printer files for custom key caps (but any Cherry MX compatible ones can be used)
    - 3D printing instructions (recommended nozzle diameter, supports, etc.)
    - Source code for the microcontroller (Teensy 4.0)
 
