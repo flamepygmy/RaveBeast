@@ -1,1 +1,2 @@
-See LICENSE_FOR_SOFTWARE.txt for software license (everything under 'software' folder) and LICENSE_MODELS_AND_PCB.txt for licensing information on the PCB schematics and 3D models (everything under 'pcb' and 'models' folders)
+See LICENSE_FOR_SOFTWARE.txt for software license (everything under 'software' folder) and
+LICENSE_MODELS_AND_PCB.txt for licensing information on the PCB schematics and 3D models (everything under 'pcb' and 'models' folders)
