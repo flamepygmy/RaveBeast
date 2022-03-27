@@ -63,6 +63,7 @@ keyhats:
   - print with as small nozzle as possible, 0.4 maximum
   - use supports, add cylindrical support blocker around the cylinder that connects to the key switch, (I used 35%-35%-100% scaling in Prusa Slicer)
     otherwise it'll be near impossible to clean the support that gets generated inside the cross
+  - brim may not be needed, but I personally use 2.25mm brim to make sure the key caps stay in place when printing a large bed full of key caps
 
 Set the support blocker radius large enough so that it doesn't hug the cylinder with the cross.
 
