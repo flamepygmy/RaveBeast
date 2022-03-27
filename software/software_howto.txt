@@ -1,0 +1,12 @@
+Open the source code file (keyboard.ino) in Arduino configured with Teensy 4.0 support.
+
+- Plug in the USB cable to the board
+- Under Tools->Board menu select "Teensy 4.0"
+- Under Tools->USB Type menu select "Keyboard"
+- Under Tools->Port select the correct USB port (with Teensy 4.0 if you have only one, if multiple, consider disconnecting other ones during this)
+- Press Sketch->Upload
+
+Code will get compiled and uploaded to the Teensy board after which the keyboard is immediately active.
+
+Note: there is a 1 second delay in the beginning of the code to let everything settle before sampling initial state of the pins.
+      No keypresses will be processed during this time, recommend not typing anything during this period.
