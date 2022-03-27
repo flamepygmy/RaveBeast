@@ -80,6 +80,10 @@ The assembly should be fairly straightforward once you have all the parts printe
 
 ### PCB and wiring preparation
 
+PCB looks like this:
+
+![kbd](https://github.com/flamepygmy/RaveBeast/blob/main/pictures/pcb.jpg?raw=true)
+
 - prepare the PCB by inserting 20 key switches in correct orientation to the top side of the PCB (copyright text on top side), solder the switches on the bottom side
 
 - insert the Teensy 4.0 with headers onto the PCB, solder every pin on the bottom side
