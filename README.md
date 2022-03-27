@@ -3,9 +3,6 @@ Custom single handed gaming keyboard
 
 ![kbd](https://github.com/flamepygmy/RaveBeast/blob/main/pictures/fully_assembled.jpg?raw=true)
 
-(Better picture coming soon, when I took the picture I had pulled the thumb keys out so they were hanging
- and the whole thing is a bit out of focus)
-
 Software is licensed under the MIT license. Do whatever you want with it. See LICENSE_FOR_SOFTWARE.txt for details.
 
 The 3D parts and PCB files are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) license. See LICENSE_FOR_MODELS_AND_PCB.txt for the details. If you want to use this for commercial use, contact me on github.
