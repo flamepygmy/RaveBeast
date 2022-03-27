@@ -1,0 +1,46 @@
+The assembly should be fairly straightforward once you have all the parts printed and PCB at hand:
+
+1. prepare the PCB by inserting 20 key switches in correct orientation to the top side of the PCB (copyright
+   text on top side), solder the switches on the bottom side
+
+2. insert the Teensy 4.0 with headers onto the PCB, solder every pin on the bottom side
+
+3. take the 3d printed "base" model, use soldering iron to push in the heat set inserts into place
+   (if unsure, search in internet on how to do it)
+
+4. prepare the thumb section wire holes by making sure that they are open and you may need to widen them
+   a little bit for step (3)
+
+5. prepare the 3 thumb keys by soldering wires onto the key switches (2 wires each), do not trim the wires
+   yet and make sure to solder the wire inline with the pin to make the whole thing very narrow so that it
+   fits through the 3d printed part
+
+6. put the thumb key wires through the holes in the thumb key section and route the cables underneath
+
+7. align the palm section with the base section (screw holes should align), continue routing the cables
+   coming from the thumb section through the routing holes on the right side, the wires should reach the
+   last section (on the top) and have a little bit of extra room to manouver for soldering
+
+8. take the PCB and lay it on top of the base just to see how everything lines up, screw holes should line up
+   and the placement for the Teensy 4.0 should be on the top left with it's USB port facing left
+
+9. once everything looks right, take one cable coming from each thumb key and push them all from under the PCB
+   (top side is the one with the copyright texts) so that they go through the TGND1 hole and come top the top side
+   of PCB, leave some extra and trim the wires
+
+10. peel a little bit of the end of the wire and solder all three wires to the TGND1
+
+11. repeat steps 6-8 for the other wires coming from the thumb section, but this time solder one wire to each of
+   T0, T1, T2. In the end you should have one wire from each thumb key to TGND1 and one wire to one of T0, T1, or T2
+
+12. align the PCB to the base so that the screw holes match the heat set inserts
+
+13. align the palm section with the heat set inserts as well
+
+14. put the top section on top everything and screw everything together with 4 screws, this step may be a little bit tedious
+
+15. slap on key caps of your liking (3D printed ones or regular Cherry MX compatible key caps)
+
+Done. Next step is to load the keyboard software to it and it's ready to go. See the text file in software for howto.
+
+
