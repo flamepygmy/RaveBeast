@@ -48,7 +48,7 @@ base:
 top:
   - can be printed in various nozzle sizes, printed mine on 0.6
   - print upside down (top against the build plate)
-  - no need for supports
+  - no need for supports depending on printer, if problems getting the opening for the USB cable printed, add support enforcers there
 
 wristrest:
   - can be printed in various nozzle sizes, printed mine on 0.6
@@ -123,6 +123,11 @@ Here is a picture of how the underside of an assembled keyboard looks like:
 - put the top section on top everything and screw everything together with 4 screws, this step may be a little bit tedious
 
 - slap on key caps of your liking (3D printed ones or regular Cherry MX compatible key caps)
+
+- attach micro USB cable to the USB port on the top left of the keyboard
+
+- if your computer is on the right side, you can use the little loop on top of the top piece to tighten the USB cable with a zip tie
+  to it for strain relief
 
 Done. Next step is to load the keyboard software to it and it's ready to go. 
 
