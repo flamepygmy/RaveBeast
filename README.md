@@ -56,13 +56,17 @@ wristrest:
   - add support for the bottom most cherry MX switch location from build plate,
     may be OK without depending on your printer (no supports needed elsewhere)
 
-keyhats:
-  - print with as small nozzle as possible, 0.4 maximum
-  - use supports, add cylindrical support blocker around the cylinder that connects to the key switch, (I used 35%-35%-100% scaling in Prusa Slicer)
-    otherwise it'll be near impossible to clean the support that gets generated inside the cross
-  - brim may not be needed, but I personally use 2.25mm brim to make sure the key caps stay in place when printing a large bed full of key caps
+keyhats (updated instructions, Prusa Slicer 2.71):
+  - print with a 0.4mm nozzle
+  - use 0.45mm layer width (all layers)
+  - use 0.10mm layer height
+  - enable auto-generated supports
+  - set support type to organic
+  - set a cylindrical support blocker around the pillar of the key cap that is slightly wider than the pillar (size = 7mm x 7mm x 25mm)
+  - set the "XY separation between an object and its support" to 0.5mm
 
-Set the support blocker radius large enough so that it doesn't hug the cylinder with the cross.
+ supports should release easy, there is only one layer for the pillar, but it should be strong enough 0.45mm. If it's not, you can try
+ to widen it, but there is not a lot of room in there.
 
 You don't want this:
 
@@ -72,7 +76,7 @@ This can be still cleaned, but it's annoying to peel what seems like an extra la
 
 You want the bottom of the keycap to look like this:
 
-![kbd](https://github.com/flamepygmy/RaveBeast/blob/main/pictures/35_radius_support_blocker.png?raw=true)
+![kbd](https://github.com/flamepygmy/RaveBeast/blob/main/pictures/bottom_of_keycap.png?raw=true)
 
 ## Assembly instructions
 
